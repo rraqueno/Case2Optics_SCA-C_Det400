@@ -1,0 +1,19 @@
+ENVI
+description = {
+  Band Math Result, Expression = [(B11*0.98595542*0.845357) +
+  (0.845357*(1-0.98595542)*1.69137) + 1.11075 ] B11:Band
+  3:A2014-104-2110_LAC_SST_geoRADIANCE [Fri Jun 06 14:16:11 2014]}
+samples = 2292
+lines   = 2300
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, -133.04631400, 44.32999588, 1.0819931415e-002, 9.0153632775e-003, WGS-84, units=Degrees}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+wavelength units = Unknown
+band names = {
+ Band Math ((B11*0.98595542*0.845357)+(0.845357*(1-0.98595542)*1.69137)+1.11075)}

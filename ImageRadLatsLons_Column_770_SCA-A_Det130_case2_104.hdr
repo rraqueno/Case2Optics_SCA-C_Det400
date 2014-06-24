@@ -1,0 +1,19 @@
+ENVI
+description = {
+  File Resize Result, x resize factor: 1.000000, y resize factor: 1.000000.
+  [Wed Jun 11 21:48:35 2014]}
+samples = 1
+lines   = 4500
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 5
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+x start = 770
+wavelength units = Unknown
+band names = {
+ Resize (Resize (Band 1:ImageRadLatsLons.img):ImageRadLatsLons.img), 
+ Resize (Resize (Band 2:ImageRadLatsLons.img):ImageRadLatsLons.img), 
+ Resize (Resize (Band 3:ImageRadLatsLons.img):ImageRadLatsLons.img)}

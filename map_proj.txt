@@ -1,0 +1,256 @@
+; ENVI CUSTOMIZED PROJECTION FILE
+;
+; 3 - Transverse Mercator
+;   a, b, lat0, lon0, x0, y0, k0, [datum], name
+;
+; 4 - Lambert Conformal Conic
+;   a, b, lat0, lon0, x0, y0, sp1, sp2, [datum], name
+;
+; 6 - Hotine Oblique Mercator B
+;   a, b, lat0, lon0, azimuth, x0, y0, k0, [datum], name
+;     azimuth:azimuth of central line (degrees east of north)
+;
+; 7 - Stereographic (ellipsoid)
+;   a, b, lat0, lon0, x0, y0, k0, [datum], name
+;
+; 9 - Albers Conical Equal Area
+;   a, b, lat0, lon0, x0, y0, sp1, sp2, [datum], name
+;
+; 10- Polyconic
+;   a, b, lat0, lon0, x0, y0, [datum], name
+;
+; 11- Lambert Azimuthal Equal Area
+;   a, b, lat0, lon0, x0, y0, [datum], name
+;
+; 12- Azimuthal Equidistant
+;   r, lat0, lon0, x0, y0, name
+;
+; 13- Gnomonic
+;   r, lat0, lon0, x0, y0, name
+;
+; 14- Orthographic
+;   r, lat0, lon0, x0, y0, name
+;
+; 15- General Vertical Nearside Perspective
+;   r, lat0, lon0, x0, y0, height, [datum], name
+;
+; 16- Sinusoidal
+;   r, lon0, x0, y0, name
+;
+; 17- Equirectangular
+;   r, lat0, lon0, x0, y0, name
+;
+; 18- Miller Cylindrical
+;   r, lon0, x0, y0, name
+;
+; 19- Van der Griten
+;   r, lat0, lon0, x0, y0, name
+;
+; 20- Mercator
+;   a, b, lat0, lon0, x0, y0, [datum], name
+;
+; 21- Robinson
+;   r, lon0, x0, y0, name
+;
+; 25- Mollweide
+;   r, lon0, x0, y0, name
+;
+; 27- Hammer
+;   r, lon0, x0, y0, name
+;
+; 31- Polar Stereographic
+;   a, b, lat0, lon0, x0, y0, [datum], name
+;
+; 33- Equidistant Conic A
+;   a, b, lat0, lon0, x0, y0, sp1, [datum], name
+;
+; 34- Equidistant Conic B
+;   a, b, lat0, lon0, x0, y0, sp1, sp2, [datum], name
+;
+; 35- Stereographic (sphere)
+;   r, lat0, lon0, x0, y0, [datum], name
+;
+; 36- Lambert Azimuthal Equal Area (sphere)
+;   r, lat0, lon0, x0, y0, [datum], name
+;
+; 39- New Zealand Map Grid
+;   a, b, lat0, lon0, x0, y0, [datum], name
+;
+; 40- Rectified Skewed Orthomorphic (RSO)
+;   a, b, lat0, lon0, azimuth, x0, y0, k0, [datum], name
+;    azimuth: azimuth of central line at projection center
+;
+; 99- User Defined projection
+;   a, b, lat0, lon0, x0, y0, [additional parameters], 
+;   [datum], name, user defined projection name
+;
+15, 6370997.0, 33.208252, -118.642770, 0.0, 0.0, 705000.000000, Case2_P41_DOY104
+15, 6370997.0, 30.912172, -116.236438, 0.0, 0.0, 705000.000000, GOES_DOY279_GVNP_SHORE
+15, 6370997.0, 30.284349, -116.411070, 0.0, 0.0, 705000.000000, GOES DOY 279 PATH 39
+3, 6378388.0, 6356911.9, -90.000000, -72.000000, 1500000.0, 0.0, 1.000000, Campo Inchauspe, Argentina - Zone 1
+3, 6378388.0, 6356911.9, -90.000000, -69.000000, 2500000.0, 0.0, 1.000000, Campo Inchauspe, Argentina - Zone 2
+3, 6378388.0, 6356911.9, -90.000000, -66.000000, 3500000.0, 0.0, 1.000000, Campo Inchauspe, Argentina - Zone 3
+3, 6378388.0, 6356911.9, -90.000000, -63.000000, 4500000.0, 0.0, 1.000000, Campo Inchauspe, Argentina - Zone 4
+3, 6378388.0, 6356911.9, -90.000000, -60.000000, 5500000.0, 0.0, 1.000000, Campo Inchauspe, Argentina - Zone 5
+3, 6378388.0, 6356911.9, -90.000000, -57.000000, 6500000.0, 0.0, 1.000000, Campo Inchauspe, Argentina - Zone 6
+3, 6378388.0, 6356911.9, -90.000000, -54.000000, 7500000.0, 0.0, 1.000000, Campo Inchauspe, Argentina - Zone 7
+3, 6378137.0, 6356752.3, -90.000000, -72.000000, 1500000.0, 0.0, 1.000000, WGS-84, Argentina (POSGAR 94) - Zone 1
+3, 6378137.0, 6356752.3, -90.000000, -69.000000, 2500000.0, 0.0, 1.000000, WGS-84, Argentina (POSGAR 94) - Zone 2
+3, 6378137.0, 6356752.3, -90.000000, -66.000000, 3500000.0, 0.0, 1.000000, WGS-84, Argentina (POSGAR 94) - Zone 3
+3, 6378137.0, 6356752.3, -90.000000, -63.000000, 4500000.0, 0.0, 1.000000, WGS-84, Argentina (POSGAR 94) - Zone 4
+3, 6378137.0, 6356752.3, -90.000000, -60.000000, 5500000.0, 0.0, 1.000000, WGS-84, Argentina (POSGAR 94) - Zone 5
+3, 6378137.0, 6356752.3, -90.000000, -57.000000, 6500000.0, 0.0, 1.000000, WGS-84, Argentina (POSGAR 94) - Zone 6
+3, 6378137.0, 6356752.3, -90.000000, -54.000000, 7500000.0, 0.0, 1.000000, WGS-84, Argentina (POSGAR 94) - Zone 7
+3, 6378160.0, 6356774.7, 0.000000, 99.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 47
+3, 6378160.0, 6356774.7, 0.000000, 105.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 48
+3, 6378160.0, 6356774.7, 0.000000, 111.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 49
+3, 6378160.0, 6356774.7, 0.000000, 117.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 50
+3, 6378160.0, 6356774.7, 0.000000, 123.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 51
+3, 6378160.0, 6356774.7, 0.000000, 129.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 52
+3, 6378160.0, 6356774.7, 0.000000, 135.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 53
+3, 6378160.0, 6356774.7, 0.000000, 141.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 54
+3, 6378160.0, 6356774.7, 0.000000, 147.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 55
+3, 6378160.0, 6356774.7, 0.000000, 153.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 56
+3, 6378160.0, 6356774.7, 0.000000, 159.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 57
+3, 6378160.0, 6356774.7, 0.000000, 165.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1966, Australian Map Grid (AGD 66) Zone 58
+3, 6378160.0, 6356774.7, 0.000000, 99.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 47
+3, 6378160.0, 6356774.7, 0.000000, 105.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 48
+3, 6378160.0, 6356774.7, 0.000000, 111.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 49
+3, 6378160.0, 6356774.7, 0.000000, 117.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 50
+3, 6378160.0, 6356774.7, 0.000000, 123.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 51
+3, 6378160.0, 6356774.7, 0.000000, 129.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 52
+3, 6378160.0, 6356774.7, 0.000000, 135.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 53
+3, 6378160.0, 6356774.7, 0.000000, 141.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 54
+3, 6378160.0, 6356774.7, 0.000000, 147.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 55
+3, 6378160.0, 6356774.7, 0.000000, 153.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 56
+3, 6378160.0, 6356774.7, 0.000000, 159.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 57
+3, 6378160.0, 6356774.7, 0.000000, 165.000000, 500000.0, 10000000.0, 0.999600, Australian Geodetic 1984, Australian Map Grid (AGD 84) Zone 58
+3, 6378137.0, 6356752.3, 0.000000, 99.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 47
+3, 6378137.0, 6356752.3, 0.000000, 105.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 48
+3, 6378137.0, 6356752.3, 0.000000, 111.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 49
+3, 6378137.0, 6356752.3, 0.000000, 117.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 50
+3, 6378137.0, 6356752.3, 0.000000, 123.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 51
+3, 6378137.0, 6356752.3, 0.000000, 129.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 52
+3, 6378137.0, 6356752.3, 0.000000, 135.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 53
+3, 6378137.0, 6356752.3, 0.000000, 141.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 54
+3, 6378137.0, 6356752.3, 0.000000, 147.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 55
+3, 6378137.0, 6356752.3, 0.000000, 153.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 56
+3, 6378137.0, 6356752.3, 0.000000, 159.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 57
+3, 6378137.0, 6356752.3, 0.000000, 165.000000, 500000.0, 10000000.0, 0.999600, Geocentric Datum of Australia 1994, Map Grid of Australia (MGA 94) Zone 58
+3, 6377397.2, 6356079.0, 0.000000, 10.333333, 150000.0, 0.0, 1.000000, Austria Zone 1
+3, 6377397.2, 6356079.0, 0.000000, 13.333333, 450000.0, 0.0, 1.000000, Austria Zone 2
+3, 6377397.2, 6356079.0, 0.000000, 16.333333, 750000.0, 0.0, 1.000000, Austria Zone 3
+3, 6378160.0, 6356774.7, 0.000000, -75.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 18)
+3, 6378388.0, 6356911.9, 0.000000, -75.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 18)
+3, 6378160.0, 6356774.7, 0.000000, -69.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 19)
+3, 6378388.0, 6356911.9, 0.000000, -69.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 19)
+3, 6378160.0, 6356774.7, 0.000000, -63.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 20)
+3, 6378388.0, 6356911.9, 0.000000, -63.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 20)
+3, 6378160.0, 6356774.7, 0.000000, -57.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 21)
+3, 6378388.0, 6356911.9, 0.000000, -57.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 21)
+3, 6378160.0, 6356774.7, 0.000000, -51.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 22)
+3, 6378388.0, 6356911.9, 0.000000, -51.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 22)
+3, 6378160.0, 6356774.7, 0.000000, -45.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 23)
+3, 6378388.0, 6356911.9, 0.000000, -45.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 23)
+3, 6378160.0, 6356774.7, 0.000000, -39.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 24)
+3, 6378388.0, 6356911.9, 0.000000, -39.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 24)
+3, 6378160.0, 6356774.7, 0.000000, -33.000000, 500000.0, 10000000.0, 0.999600, South American 1969 mean, Brasil - UTM SAD 69 (Fuso 25)
+3, 6378388.0, 6356911.9, 0.000000, -33.000000, 500000.0, 10000000.0, 0.999600, Corrego Alegre, Brasil - UTM Corr.Al. (Fuso 25)
+3, 6378388.0, 6356911.9, 0.000000, 9.000000, 500000.0, 0.0, 0.999600, Denmark 1 (UTM ZONE 32)
+3, 6378388.0, 6356911.9, 0.000000, 15.000000, 500000.0, 0.0, 0.999600, Denmark 2 (UTM ZONE 33)
+3, 6378388.0, 6356911.9, 0.000000, 21.000000, 500000.0, 0.0, 1.000000, Finland Zone 1
+3, 6378388.0, 6356911.9, 0.000000, 24.000000, 500000.0, 0.0, 1.000000, Finland Zone 2
+3, 6378388.0, 6356911.9, 0.000000, 27.000000, 500000.0, 0.0, 1.000000, Finland Zone 3
+3, 6378388.0, 6356911.9, 0.000000, 30.000000, 500000.0, 0.0, 1.000000, Finland Zone 4
+4, 6378249.2, 6356515.0, 49.500000, 2.337229, 600000.0, 200000.0, 48.598523, 50.395912, Nouvelle Triangulation Francaise IGN, France Zone I nord
+4, 6378249.2, 6356515.0, 46.800000, 2.337229, 600000.0, 200000.0, 45.898919, 47.696014, Nouvelle Triangulation Francaise IGN, France Zone II centre
+4, 6378249.2, 6356515.0, 46.800000, 2.337229, 600000.0, 2200000.0, 45.898919, 47.696014, Nouvelle Triangulation Francaise IGN, France Zone II etendu
+4, 6378249.2, 6356515.0, 44.100000, 2.337229, 600000.0, 200000.0, 43.199291, 44.996094, Nouvelle Triangulation Francaise IGN, France Zone III sud
+4, 6378249.2, 6356515.0, 42.165000, 2.337229, 234.4, 185861.4, 41.560388, 42.767663, Nouvelle Triangulation Francaise IGN, France Zone IV Corse
+4, 6378137.0, 6356752.3, 46.500000, 3.000000, 700000.0, 6600000.0, 44.000000, 49.000000, Reseau Geodesique Francaise, France Lambert-93
+4, 6378137.0, 6356752.3, 42.000000, 3.000000, 1700000.0, 1200000.0, 41.250000, 42.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 1 (CC42)
+4, 6378137.0, 6356752.3, 43.000000, 3.000000, 1700000.0, 2200000.0, 42.250000, 43.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 2 (CC43)
+4, 6378137.0, 6356752.3, 44.000000, 3.000000, 1700000.0, 3200000.0, 43.250000, 44.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 3 (CC44)
+4, 6378137.0, 6356752.3, 45.000000, 3.000000, 1700000.0, 4200000.0, 44.250000, 45.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 4 (CC45)
+4, 6378137.0, 6356752.3, 46.000000, 3.000000, 1700000.0, 5200000.0, 45.250000, 46.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 5 (CC46)
+4, 6378137.0, 6356752.3, 47.000000, 3.000000, 1700000.0, 6200000.0, 46.250000, 47.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 6 (CC47)
+4, 6378137.0, 6356752.3, 48.000000, 3.000000, 1700000.0, 7200000.0, 47.250000, 48.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 7 (CC48)
+4, 6378137.0, 6356752.3, 49.000000, 3.000000, 1700000.0, 8200000.0, 48.250000, 49.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 8 (CC49)
+4, 6378137.0, 6356752.3, 50.000000, 3.000000, 1700000.0, 9200000.0, 49.250000, 50.750000, Reseau Geodesique Francaise, France Lambert-93 Zone 9 (CC50)
+3, 6378388.0, 6356911.9, 0.000000, 9.000000, 1500000.0, 0.0, 0.999600, Rome 1940, Gauss-Boaga Zone 1
+3, 6378388.0, 6356911.9, 0.000000, 15.000000, 2520000.0, 0.0, 0.999600, Rome 1940, Gauss-Boaga Zone 2
+3, 6377397.2, 6356079.0, 0.000000, 6.000000, 2500000.0, 0.0, 1.000000, Gauss-Kruger Zone 2
+3, 6377397.2, 6356079.0, 0.000000, 9.000000, 3500000.0, 0.0, 1.000000, Gauss-Kruger Zone 3
+3, 6377397.2, 6356079.0, 0.000000, 12.000000, 4500000.0, 0.0, 1.000000, Gauss-Kruger Zone 4
+3, 6377397.2, 6356079.0, 0.000000, 15.000000, 5500000.0, 0.0, 1.000000, Gauss-Kruger Zone 5
+3, 6378245.0, 6356863.0, 0.000000, 3.000000, 1500000.0, 0.0, 1.000000, GK Zone 1 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 9.000000, 2500000.0, 0.0, 1.000000, GK Zone 2 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 15.000000, 3500000.0, 0.0, 1.000000, GK Zone 3 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 21.000000, 4500000.0, 0.0, 1.000000, GK Zone 4 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 27.000000, 5500000.0, 0.0, 1.000000, GK Zone 5 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 33.000000, 6500000.0, 0.0, 1.000000, GK Zone 6 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 39.000000, 7500000.0, 0.0, 1.000000, GK Zone 7 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 45.000000, 8500000.0, 0.0, 1.000000, GK Zone 8 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 51.000000, 9500000.0, 0.0, 1.000000, GK Zone 9 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 57.000000, 10500000.0, 0.0, 1.000000, GK Zone 10 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 63.000000, 11500000.0, 0.0, 1.000000, GK Zone 11 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 69.000000, 12500000.0, 0.0, 1.000000, GK Zone 12 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 75.000000, 13500000.0, 0.0, 1.000000, GK Zone 13 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 81.000000, 14500000.0, 0.0, 1.000000, GK Zone 14 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 87.000000, 15500000.0, 0.0, 1.000000, GK Zone 15 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 93.000000, 16500000.0, 0.0, 1.000000, GK Zone 16 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 99.000000, 17500000.0, 0.0, 1.000000, GK Zone 17 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 105.000000, 18500000.0, 0.0, 1.000000, GK Zone 18 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 111.000000, 19500000.0, 0.0, 1.000000, GK Zone 19 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 117.000000, 20500000.0, 0.0, 1.000000, GK Zone 20 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 123.000000, 21500000.0, 0.0, 1.000000, GK Zone 21 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 129.000000, 22500000.0, 0.0, 1.000000, GK Zone 22 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 135.000000, 23500000.0, 0.0, 1.000000, GK Zone 23 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 141.000000, 24500000.0, 0.0, 1.000000, GK Zone 24 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 147.000000, 25500000.0, 0.0, 1.000000, GK Zone 25 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 153.000000, 26500000.0, 0.0, 1.000000, GK Zone 26 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 159.000000, 27500000.0, 0.0, 1.000000, GK Zone 27 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 165.000000, 28500000.0, 0.0, 1.000000, GK Zone 28 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 171.000000, 29500000.0, 0.0, 1.000000, GK Zone 29 (Pulkova 1942)
+3, 6378245.0, 6356863.0, 0.000000, 177.000000, 30500000.0, 0.0, 1.000000, GK Zone 30 (Pulkova 1942)
+3, 6378137.0, 6356752.3, 0.000000, 24.000000, 500000.0, 0.0, 0.999600, EGSA87, Hellenic Geodetic Reference System 87
+6, 6377276.3, 6356075.4, 4.000000, 115.000000, 53.31581944, 91524.3, 68643.2, 0.999840, Malaysia East RSO
+6, 6377276.3, 6356075.4, 4.000000, 102.250000, 323.02579167, 124724.4, 0.0, 0.999840, Malaysia West RSO
+39, 6378388.0, 6356911.9, -41.000000, 173.000000, 2510000.0, 6023150.0, Geodetic Datum '49, New Zealand Map Grid
+3, 6378137.0, 6356752.3, 32.500000, -89.750000, 500000.0, 1300000.0, 0.999834, North America 1983, Mississippi Standard TM
+3, 6377492.1, 6356079.0, 58.000000, 6.052778, 0.0, 0.0, 1.000000, Norway Zone I
+3, 6377492.1, 6356079.0, 58.000000, 8.386111, 0.0, 0.0, 1.000000, Norway Zone II
+3, 6377492.1, 6356079.0, 58.000000, 10.719444, 0.0, 0.0, 1.000000, Norway Zone III
+3, 6377492.1, 6356079.0, 64.000000, 13.219444, 0.0, 0.0, 1.000000, Norway Zone IV
+3, 6377492.1, 6356079.0, 66.000000, 16.886111, 0.0, 0.0, 1.000000, Norway Zone V
+3, 6377492.1, 6356079.0, 68.000000, 20.886111, 0.0, 0.0, 1.000000, Norway Zone VI
+3, 6377492.1, 6356079.0, 68.000000, 24.886111, 0.0, 0.0, 1.000000, Norway Zone VII
+3, 6377492.1, 6356079.0, 68.000000, 26.052777, 0.0, 0.0, 1.000000, Norway Zone VIII
+3, 6377397.2, 6356079.0, 38.000000, 129.002890, 200000.0, 500000.0, 1.000000, Tokyo mean, Korea - TM (East)
+3, 6377397.2, 6356079.0, 38.000000, 127.002890, 200000.0, 500000.0, 1.000000, Tokyo mean, Korea - TM (Middle)
+3, 6377397.2, 6356079.0, 38.000000, 125.002890, 200000.0, 500000.0, 1.000000, Tokyo mean, Korea - TM (West)
+3, 6377563.4, 6356256.9, 49.000000, -2.000000, 400000.0, -100000.0, 0.999601, United Kingdom
+3, 6378206.4, 6356583.8, 0.000000, -105.000000, 500000.0, 0.0, 0.999600, Sample Transverse Mercator
+4, 6378206.4, 6356583.8, 0.000000, -75.000000, 0.0, 0.0, 20.000000, 40.000000, Sample Lambert Conformal Conic
+6, 6378206.4, 6356583.8, -70.000000, 35.000000, 70.00000000, 0.0, 0.0, 0.999600, Sample Oblique Mercator B
+7, 6378206.4, 6356583.8, 90.000000, -35.000000, 0.0, 0.0, 0.999600, Sample Stereographic (ellipse)
+9, 6378206.4, 6356583.8, 0.000000, 75.000000, 0.0, 0.0, 20.000000, 40.000000, Sample Albers Conical Equal Area
+10, 6378206.4, 6356583.8, -25.000000, 75.000000, 300000.0, 0.0, Sample Polyconic
+11, 6378206.4, 6356583.8, 30.000000, -96.000000, 0.0, 0.0, Sample Lambert Azimuthal Equal Area
+12, 6370997.0, -90.000000, 75.000000, 0.0, 0.0, Sample Azimuthal Equidistant
+13, 6378166.0, 90.000000, -35.000000, 0.0, 0.0, Sample Gnomonic
+14, 6370997.0, 90.000000, -35.000000, 0.0, 0.0, Sample Orthographic
+15, 6370997.0, 90.000000, -35.000000, 0.0, 0.0, 17250000.000000, Sample GVNP
+16, 6370997.0, 30.000000, 0.0, 0.0, Sample Sinusoidal
+17, 6370997.0, 40.000000, -35.000000, 0.0, 0.0, Sample Equirectangular
+18, 6370997.0, -25.000000, 100000.0, 0.0, Sample Miller Cylindrical
+19, 6370997.0, 0.000000, 35.000000, 0.0, 0.0, Sample Van der Grinten
+20, 6378206.4, 6356583.8, 0.000000, 40.000000, 5000000.0, 0.0, Sample Mercator
+21, 6370997.0, 70.000000, 0.0, 0.0, Sample Robinson
+25, 6378206.4, -100.000000, 0.0, 0.0, Sample Mollweide
+27, 6370997.0, 100.000000, 30000000.0, 20000000.0, Sample Hammer
+31, 6378206.4, 6356583.8, 40.000000, 75.000000, 0.0, 0.0, Sample Polar Stereographic
+33, 6378206.4, 6356583.8, 90.000000, -35.000000, 0.0, 0.0, 40.000000, Sample Equidistant Conic A
+34, 6378206.4, 6356583.8, -52.000000, -82.000000, 3200000.0, -4500000.0, -35.000000, -28.000000, Sample Equidistant Conic B
+35, 6370997.0, 90.000000, -35.000000, 0.0, 0.0, Sample Stereographic (sphere)
+36, 6370997.0, 90.000000, -145.000000, 0.0, 0.0, Sample Azimuthal Equal Area (sphere)

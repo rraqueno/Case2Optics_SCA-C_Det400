@@ -1,0 +1,18 @@
+ENVI
+description = {
+  Rotation Result. Angle:11.00000000 degrees. Method: 1st degree RST w/
+  nearest neighbor [Fri Jun 20 09:56:41 2014]}
+samples = 475
+lines   = 542
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Case2_P41_DOY104, 92.0000, 1.0000, -329723.9597, 738469.6498, 2.5128000000e+003, 2.5128000000e+003, WGS-84, units=Meters}
+coordinate system string = {PROJCS["Case2_P41_DOY104",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Vertical_Near_Side_Perspective"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Longitude_Of_Center",-118.64277],PARAMETER["Latitude_Of_Center",33.208252],PARAMETER["Height",705000.0],UNIT["Meter",1.0]]}
+wavelength units = Unknown
+band names = {
+ Rotate (Georef (Band 1:goes15.2014.104.Band4.img):GOES.img)}

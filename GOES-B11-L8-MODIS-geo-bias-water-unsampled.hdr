@@ -1,0 +1,48 @@
+ENVI
+description = {
+  ENVI File, Created [Mon Jun 23 16:13:32 2014]}
+samples = 205
+lines   = 205
+bands   = 35
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Case2_P41_DOY104, 1.0000, 1.0000, -329723.9597, 738469.6498, 2.5128000000e+003, 2.5128000000e+003, WGS-84, units=Meters, rotation=-11.00000000}
+coordinate system string = {PROJCS["Case2_P41_DOY104",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Vertical_Near_Side_Perspective"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Longitude_Of_Center",-118.64277],PARAMETER["Latitude_Of_Center",33.208252],PARAMETER["Height",705000.0],UNIT["Meter",1.0]]}
+wavelength units = Unknown
+band names = {
+ Vector Hits, Sum Weights, Sum^2 Weights, Ghost Weights, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.707381; BoresightLon=-118.50485; BoresightLine=240; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.692806; BoresightLon=-118.50890; BoresightLine=241; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.670511; BoresightLon=-118.51508; BoresightLine=242; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.648219; BoresightLon=-118.52126; BoresightLine=243; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.626780; BoresightLon=-118.52720; BoresightLine=244; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.604482; BoresightLon=-118.53338; BoresightLine=245; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.582185; BoresightLon=-118.53956; BoresightLine=246; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.559887; BoresightLon=-118.54573; BoresightLine=247; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.538449; BoresightLon=-118.55166; BoresightLine=248; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.523010; BoresightLon=-118.55593; BoresightLine=249; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.294018; BoresightLon=-118.61917; BoresightLine=259; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.282867; BoresightLon=-118.62224; BoresightLine=260; BoresightSample=185, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.271718; BoresightLon=-118.62531; BoresightLine=260; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.251134; BoresightLon=-118.63097; BoresightLine=261; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.228834; BoresightLon=-118.63711; BoresightLine=262; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.206538; BoresightLon=-118.64324; BoresightLine=263; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.184239; BoresightLon=-118.64938; BoresightLine=264; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.162800; BoresightLon=-118.65528; BoresightLine=265; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=33.142221; BoresightLon=-118.66094; BoresightLine=266; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.869478; BoresightLon=-118.73577; BoresightLine=278; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.853181; BoresightLon=-118.74023; BoresightLine=279; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.830879; BoresightLon=-118.74633; BoresightLine=280; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.809433; BoresightLon=-118.75219; BoresightLine=281; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.787132; BoresightLon=-118.75828; BoresightLine=282; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.764834; BoresightLon=-118.76437; BoresightLine=283; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.742532; BoresightLon=-118.77047; BoresightLine=284; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.720233; BoresightLon=-118.77656; BoresightLine=285; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.698789; BoresightLon=-118.78242; BoresightLine=286; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.676487; BoresightLon=-118.78851; BoresightLine=287; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.664478; BoresightLon=-118.79179; BoresightLine=288; BoresightSample=184, 
+ File:B11.csv; SCA:2; Detector:400; Entries=150; BoresightLat=32.662762; BoresightLon=-118.79225; BoresightLine=288; BoresightSample=183}
